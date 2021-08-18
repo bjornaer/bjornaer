@@ -15,4 +15,20 @@ brew install --cask visual-studio-code
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+brew install virtualenv
+
+brew install pyenv
+
+brew install pyenv-virtualenv
+
+echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+
+# pyenv install 3.9.0
+
+# pyenv virtualenv 3.9.0 project_name
+
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
