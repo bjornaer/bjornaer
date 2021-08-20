@@ -35,4 +35,6 @@ git clone git@github.com:deliveryhero/pd-devops.git
 git clone git@github.com:deliveryhero/pd-customer-intelligence.git
 git clone git@github.com:joancerretani/FindMyPet.git
 
+brew install aws-iam-authenticator
+
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
