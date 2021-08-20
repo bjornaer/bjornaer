@@ -37,4 +37,26 @@ git clone git@github.com:joancerretani/FindMyPet.git
 
 brew install aws-iam-authenticator
 
+# add this on shell rc or profile to get kubectl versions 
+# usage: kv 1.18.18
+kv () {
+ 
+  if [ ! -d "/usr/local/kubectl" ]; then
+      sudo mkdir -p /usr/local/kubectl
+      whoami=`whoami`
+      sudo chown ${whoami}:admin /usr/local/kubectl
+  fi
+ 
+  if [ -e "/usr/local/kubectl/kubectl-$1" ]
+  then
+      ln -fs /usr/local/kubectl/kubectl-$1 /usr/local/bin/kubectl
+  else
+      curl -L https://storage.googleapis.com/kubernetes-release/release/v$1/bin/darwin/amd64/kubectl > /usr/local/kubectl/kubectl-$1
+      chmod +x /usr/local/kubectl/kubectl-$1
+      ln -fs /usr/local/kubectl/kubectl-$1 /usr/local/bin/kubectl
+  fi
+ 
+  echo "Version changed to $1."
+}
+
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
