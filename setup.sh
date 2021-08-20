@@ -31,4 +31,8 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
 # pyenv virtualenv 3.9.0 project_name
 
+git clone git@github.com:deliveryhero/pd-devops.git
+git clone git@github.com:deliveryhero/pd-customer-intelligence.git
+git clone git@github.com:joancerretani/FindMyPet.git
+
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
