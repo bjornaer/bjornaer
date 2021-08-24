@@ -31,6 +31,14 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
 # pyenv virtualenv 3.9.0 project_name
 
+brew install golang
+
+mkdir -p $HOME/go/{bin,src,pkg}
+
+echo 'export GOPATH=$HOME/go' >> ~/.zshrc
+echo 'export GOROOT="$(brew --prefix golang)/libexec"' >> ~/.zshrc
+echo 'export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"' >> ~/.zshrc
+
 git clone git@github.com:deliveryhero/pd-devops.git
 git clone git@github.com:deliveryhero/pd-customer-intelligence.git
 git clone git@github.com:joancerretani/FindMyPet.git
