@@ -67,4 +67,10 @@ kv () {
   echo "Version changed to $1."
 }
 
+alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch -D'
+
+# source <(kubectl completion $(basename $SHELL))
+
+eval "$(direnv hook zsh)"
+
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
