@@ -76,3 +76,16 @@ alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch -D'
 eval "$(direnv hook zsh)"
 
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
+
+brew install docker
+
+brew install docker-machine
+
+brew install virtualbox --cask
+
+docker-machine create --driver virtualbox default
+
+docker-machine env default
+
+eval $(docker-machine env default)
+# https://medium.com/crowdbotics/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
