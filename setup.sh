@@ -31,6 +31,8 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
 # pyenv virtualenv 3.9.0 project_name
 
+# pyenv virtualenv-delete [project_name]
+
 brew install golang
 
 mkdir -p $HOME/go/{bin,src,pkg}
