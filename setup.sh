@@ -27,6 +27,9 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
+echo "alias py-install='pyenv install'" >> ~/.zshrc
+echo "alias pyenv-new='pyenv virtualenv'" >> ~/.zshrc
+echo "alias pyenv-delete='pyenv virtualenv-delete'" >> ~/.zshrc
 # pyenv install 3.9.0
 
 # pyenv virtualenv 3.9.0 project_name
@@ -41,14 +44,22 @@ echo 'export GOPATH=$HOME/go' >> ~/.zshrc
 echo 'export GOROOT="$(brew --prefix golang)/libexec"' >> ~/.zshrc
 echo 'export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"' >> ~/.zshrc
 
+mkdir ~/work
+cd ~/work
 git clone git@github.com:deliveryhero/pd-devops.git
 git clone git@github.com:deliveryhero/pd-customer-intelligence.git
+mkdir ~/personal
+cd ~/personal
 git clone git@github.com:joancerretani/FindMyPet.git
+git clone git@github.com:bjornaer/titan.git
+
+cd ~
 
 brew install aws-iam-authenticator
 
 # add this on shell rc or profile to get kubectl versions 
 # usage: kv 1.18.18
+cat<<EOF >> ~/.zshrc
 kv () {
  
   if [ ! -d "/usr/local/kubectl" ]; then
@@ -68,24 +79,12 @@ kv () {
  
   echo "Version changed to $1."
 }
+EOF
 
-alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch -D'
+echo "alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch -D'" >> ~/.zshrc
 
 # source <(kubectl completion $(basename $SHELL))
 
-eval "$(direnv hook zsh)"
+echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
 
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
-
-brew install docker
-
-brew install docker-machine
-
-brew install virtualbox --cask
-
-docker-machine create --driver virtualbox default
-
-docker-machine env default
-
-eval $(docker-machine env default)
-# https://medium.com/crowdbotics/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
