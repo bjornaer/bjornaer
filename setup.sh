@@ -21,6 +21,8 @@ brew install pyenv
 
 brew install pyenv-virtualenv
 
+brew install xz
+
 echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
