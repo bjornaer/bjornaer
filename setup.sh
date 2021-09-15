@@ -90,3 +90,5 @@ echo "alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch
 echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
 
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
+
+brew install --cask rectangle
