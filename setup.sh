@@ -48,16 +48,15 @@ echo 'export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"' >> ~/.zshrc
 
 mkdir ~/work
 cd ~/work
-git clone git@github.com:deliveryhero/pd-devops.git
-git clone git@github.com:deliveryhero/pd-customer-intelligence.git
 mkdir ~/personal
 cd ~/personal
 git clone git@github.com:joancerretani/FindMyPet.git
 git clone git@github.com:bjornaer/titan.git
+git clone git@github.com:bjornaer/havi.git
 
 cd ~
 
-brew install aws-iam-authenticator
+# brew install aws-iam-authenticator
 
 # add this on shell rc or profile to get kubectl versions 
 # usage: kv 1.18.18
@@ -87,8 +86,10 @@ echo "alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch
 
 # source <(kubectl completion $(basename $SHELL))
 
-echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
+# echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
 
 # echo $(which zsh) >> /etc/shells && chsh -s $(which zsh) # keep this commented
 
 brew install --cask rectangle
+echo "alias reload='source ~/.zshrc'" >> ~/.zshrc
+
