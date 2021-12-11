@@ -93,3 +93,17 @@ echo "alias grb='git branch | grep -v "master\|main\|develop" | xargs git branch
 brew install --cask rectangle
 echo "alias reload='source ~/.zshrc'" >> ~/.zshrc
 
+brew install gnupg
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format=long
+# gpg --armor --export ID
+# ssh-keygen -t ed25519 -C "youremail@example.com"
+# eval "$(ssh-agent -s)"
+# touch ~/.ssh/config
+# cat<<EOF >> ~/.ssh/config
+# Host *
+#   AddKeysToAgent yes
+#   IdentityFile ~/.ssh/id_ed25519
+# EOF
+# ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+# pbcopy < ~/.ssh/id_ed25519.pub
