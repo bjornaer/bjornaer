@@ -32,11 +32,22 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 echo "alias py-install='pyenv install'" >> ~/.zshrc
 echo "alias pyenv-new='pyenv virtualenv'" >> ~/.zshrc
 echo "alias pyenv-delete='pyenv virtualenv-delete'" >> ~/.zshrc
-# pyenv install 3.9.0
+
+## Execute after reload
+pyenv install 3.9.2
 
 # pyenv virtualenv 3.9.0 project_name
 
 # pyenv virtualenv-delete [project_name]
+
+pyenv global 3.9.2
+
+curl -sSL https://install.python-poetry.org | python3 -
+
+echo 'export PATH="/Users/maxo/.local/bin:$PATH"' >> ~/.zshrc
+
+mkdir $ZSH_CUSTOM/plugins/poetry
+poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 
 brew install golang
 
