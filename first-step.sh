@@ -13,4 +13,6 @@ brew install --cask iterm2
 
 brew install --cask visual-studio-code
 
+brew install git
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
