@@ -104,3 +104,9 @@ gpg --list-secret-keys --keyid-format=long
 # EOF
 # ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 # pbcopy < ~/.ssh/id_ed25519.pub
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install --cask google-cloud-sdk
+brew install argocd
+
+echo "alias run-argo-ui='kubectl port-forward svc/argocd-server -n argocd 8080:443'" >> ~/.zshrc
