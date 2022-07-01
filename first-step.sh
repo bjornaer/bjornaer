@@ -9,8 +9,6 @@ else
     brew update && brew upgrade
 fi
 
-brew install --cask iterm2
-
 brew install --cask visual-studio-code
 
 brew install git
