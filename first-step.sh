@@ -9,8 +9,12 @@ else
     brew update && brew upgrade
 fi
 
+eval $(/opt/homebrew/bin/brew shellenv)
+
 brew install --cask visual-studio-code
 
 brew install git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
