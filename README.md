@@ -9,7 +9,7 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=bjornaer&label=Profile%20views&color=0e75b6&style=plastic" alt="bjornaer" /> </p>
 
 ## Streak Stats
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=bjornaer&theme=algolia" alt="bjornaer"  /></p>
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=bjornaer&theme=tokyonight" alt="bjornaer"  /></p>
 
 
 ## Skills
@@ -62,10 +62,10 @@
   <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/bjornaer/github-readme-stats"><img alt="Bjornaer's Github Stats" src="https://github-readme-stats.vercel.app/api?username=bjornaer&show_icons=true&count_private=true&theme=algolia" height="192px"/></a>
+    <a href="https://github.com/bjornaer/github-readme-stats"><img alt="Bjornaer's Github Stats" src="https://github-readme-stats.vercel.app/api?username=bjornaer&show_icons=true&count_private=true&theme=tokyonight" height="192px"/></a>
 <br/>
   &nbsp;
-	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bjornaer&show_icons=true&locale=en&layout=compact&theme=algolia" alt="bjornaer" height="192px"/>
+	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bjornaer&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="bjornaer" height="192px"/>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
   </p>
@@ -75,7 +75,7 @@
 <details>
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   <a href="https://github.com/bjornaer"><img alt="Bjornaer's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=bjornaer&custom_title=Bjornaer's%20Contribution%20Graph&theme=react-dark" /></a>
+   <a href="https://github.com/bjornaer"><img alt="Bjornaer's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=bjornaer&custom_title=Bjornaer's%20Contribution%20Graph&theme=tokyonight" /></a>
   <br/>
 
 </details>
