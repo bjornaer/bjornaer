@@ -110,3 +110,5 @@ brew install --cask google-cloud-sdk
 brew install argocd
 
 echo "alias run-argo-ui='kubectl port-forward svc/argocd-server -n argocd 8080:443'" >> ~/.zshrc
+
+brew install --cask mactex
