@@ -70,23 +70,27 @@
 
 ## 📊 GitHub Stats
 
-<details>
-  <summary><b>💻 Expand to view stats</b></summary>
-  <br/>
-  <p align="center">
-    <a href="https://github.com/bjornaer">
-      <img alt="Max's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bjornaer&show_icons=true&count_private=true&theme=tokyonight" height="180px"/>
-    </a>
-    &nbsp;
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=bjornaer&layout=compact&locale=en&theme=tokyonight" height="180px"/>
-  </p>
-  <p align="center">
-    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=bjornaer&theme=tokyonight" height="180px"/>
-  </p>
-  <p align="center">
-    <b>Note:</b> Top languages only reflects the makeup of my public code — not experience or skill level.
-  </p>
-</details>
+<p align="center">
+  <img alt="Profile summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bjornaer&theme=tokyonight" width="820"/>
+</p>
+
+<p align="center">
+  <img alt="Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bjornaer&theme=tokyonight" height="200"/>
+  <img alt="Most-used languages" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bjornaer&theme=tokyonight" height="200"/>
+</p>
+
+<p align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=bjornaer&theme=tokyonight" height="200"/>
+  <img alt="Most productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bjornaer&theme=tokyonight&utcOffset=2" height="200"/>
+</p>
+
+<p align="center">
+  <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=bjornaer&theme=tokyo-night&hide_border=true&area=true" width="820"/>
+</p>
+
+<p align="center">
+  <sub><b>Note:</b> Language cards reflect the makeup of my public code — not experience or skill level.</sub>
+</p>
 
 <hr/>
 
