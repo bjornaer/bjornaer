@@ -1,92 +1,105 @@
+<h1 align="center">Hi, I'm Max <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<h1 align="center">Hi , I'm Bjornaer <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=ML+Engineer;Physicist;Data%20|%20AI%20|%20ML;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=560&lines=Physicist+turned+Engineer;ML+%2F+AI+%2F+Distributed+Systems;Sr+Engineer+%40+Strategy+Bridge+AI;Always+learning+new+things" alt="Typing SVG">
+  </a>
 </p>
+
+<p align="center">
+  I'm a physicist turned software engineer, currently a Sr Engineer @ <a href="https://strategybridge.ai">Strategy Bridge AI</a> —
+  I build ML/AI systems and distributed backends in Go &amp; Python.
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bjornaer&label=Profile%20views&color=7aa2f7&style=flat-square" alt="profile views" />
+</p>
+
 <hr/>
-<h4 align="center">I am currently a Sr Engineer @ <a href="https://strategybridge.ai">Strategy Bridge AI</a>, I am a physicist turned software engineer!</h4>
-<br>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=bjornaer&label=Profile%20views&color=0e75b6&style=plastic" alt="bjornaer" /> </p>
 
-## Streak Stats
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=bjornaer&theme=tokyonight" alt="bjornaer"  /></p>
+## ⚽ My Dev Card
 
-
-## Skills
 <p align="center">
-  <a href="https://www.golang.org" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.python.org" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+  <a href="https://gitfut.com/bjornaer">
+    <img src="https://gitfut.com/bjornaer.png?country=AT" alt="Max's GitFut scout card" width="420">
   </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/TypeScript" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-  </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/> 
-  </a>
-  <a href="https://www.docker.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
-  </a>
-  <a href="https://www.kubernetes.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="k8s" width="40" height="40"/> 
-  </a>
-  <a href="https://git-scm.com/" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a>
-  <a href="https://circleci.org" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/circleci/circleci-plain-wordmark.svg" alt="cci" width="40" height="40"/> 
-  </a>
-  <a href="https://www.linux.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
-  </a>
-    <a href="https://www.unix.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unix/unix-original.svg" alt="unix" width="40" height="40"/> 
-  </a> 
-  <a href="https://cloud.google.com" target="_blank"> 
-    <img src="https://github.com/devicons/devicon/blob/master/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="40" height="40"/> 
-  </a>
-  <a href="https://aws.amazon.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/> 
-  </a> 
+</p>
+<p align="center"><i>My GitHub stats, scouted into a FIFA-style player card 🇦🇹</i></p>
+
+<hr/>
+
+## 🛠 Tech &amp; Tools
+
+<p align="center"><b>Languages</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
 </p>
 
-## 📊 Github Stats (Expand to View) 
+<p align="center"><b>Infra &amp; Cloud</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+</p>
 
+<p align="center"><b>Tooling</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white" alt="CircleCI">
+</p>
 
-<details> 
-  <summary><b>💻 GitHub Profile Stats</b></summary>
+<hr/>
+
+## 🚀 Featured Projects
+
+| Project | Stack | What it is |
+| --- | --- | --- |
+| **[CRDT](https://github.com/bjornaer/CRDT)** ⭐27 | Go | Conflict-free Replicated Data Types library for distributed, eventually-consistent systems |
+| **[hermes](https://github.com/bjornaer/hermes)** ⭐7 | Go | Distributed key-value store that guarantees data consistency via CRDTs |
+| **[ymir](https://github.com/bjornaer/ymir)** ⭐3 | Python | A programming language focused on machine-learning systems |
+| **[fastauth](https://github.com/bjornaer/fastauth)** | Python | FastAPI-compatible middleware for auth, token management &amp; RBAC |
+| **[qtech-msc](https://github.com/bjornaer/qtech-msc)** | R | Quantum-technology code from my MSc — where physics meets code |
+
+<hr/>
+
+## 📊 GitHub Stats
+
+<details>
+  <summary><b>💻 Expand to view stats</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/bjornaer/github-readme-stats"><img alt="Bjornaer's Github Stats" src="https://github-readme-stats.vercel.app/api?username=bjornaer&show_icons=true&count_private=true&theme=tokyonight" height="192px"/></a>
-<br/>
-  &nbsp;
-	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bjornaer&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="bjornaer" height="192px"/>
-  <br/>
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+    <a href="https://github.com/bjornaer">
+      <img alt="Max's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bjornaer&show_icons=true&count_private=true&theme=tokyonight" height="180px"/>
+    </a>
+    &nbsp;
+    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=bjornaer&layout=compact&locale=en&theme=tokyonight" height="180px"/>
+  </p>
+  <p align="center">
+    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=bjornaer&theme=tokyonight" height="180px"/>
+  </p>
+  <p align="center">
+    <b>Note:</b> Top languages only reflects the makeup of my public code — not experience or skill level.
   </p>
 </details>
 
-
-<!--<details>
-  <summary><b>⚡ Recent GitHub Activity</b></summary>
-  <br/>
-   <a href="https://github.com/bjornaer"><img alt="Bjornaer's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=bjornaer&custom_title=Bjornaer's%20Contribution%20Graph&theme=tokyonight" /></a>
-  <br/>
-
-</details>-->
-
-<br/>
-
-## Let's Connect
-<p align="center">
-	<a href="mailto:max.schulkin@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
-	<a href="https://github.com/bjornaer"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-	<a href="https://linkedin.com/in/max-schulkin"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
-</p>
-
 <hr/>
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="mailto:max.schulkin@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://github.com/bjornaer">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://linkedin.com/in/max-schulkin">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
