@@ -64,6 +64,7 @@
 | **[hermes](https://github.com/bjornaer/hermes)** ⭐7 | Go | Distributed key-value store that guarantees data consistency via CRDTs |
 | **[ymir](https://github.com/bjornaer/ymir)** ⭐3 | Python | A programming language focused on machine-learning systems |
 | **[fastauth](https://github.com/bjornaer/fastauth)** | Python | FastAPI-compatible middleware for auth, token management &amp; RBAC |
+| **[kinsearch](https://github.com/bjornaer/kinsearch)** | Python | web search CLI engine with page indexing and seeding |
 | **[qtech-msc](https://github.com/bjornaer/qtech-msc)** | R | Quantum-technology code from my MSc — where physics meets code |
 
 <hr/>
